@@ -16,4 +16,4 @@ The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonac
 - fibonacci(4) = 3
   -- Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 
-[!Problem Linl](https://leetcode.com/problems/fibonacci-number/description/)
+[!Problem Link](https://leetcode.com/problems/fibonacci-number/description/)

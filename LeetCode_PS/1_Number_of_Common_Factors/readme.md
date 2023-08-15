@@ -19,4 +19,4 @@ An integer x is a common factor of a and b if x divides both a and b.
     Output: 2
     Explanation: The common factors of 25 and 30 are 1, 5.
 
-[!Problem Linl](https://leetcode.com/problems/number-of-common-factors/)
+[!Problem Link](https://leetcode.com/problems/number-of-common-factors/)
