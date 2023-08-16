@@ -77,7 +77,9 @@
           -- This represents the best case performance for an algorithm, setting a lower bound on how fast the code can perform.
           -- It's noted as Ω(n) .
 
-        At all: - Big O (O()) describes the upper bound of the complexity. Omega (Ω()) describes the lower bound of the complexity. Theta (Θ()) describes the exact bound of the complexity.
+        At all: - Big O (O()) describes the upper bound of the complexity.
+                - Omega (Ω()) describes the lower bound of the complexity.
+                - Theta (Θ()) describes the exact bound of the complexity.
 
 #### Big-O Notation:
 *The worst case complexity of an algorithm is represented using the Big-O notation.*
