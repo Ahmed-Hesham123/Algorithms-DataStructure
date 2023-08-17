@@ -108,3 +108,32 @@
          }
          return sum;
       }
+  
+  EX3:
+
+      for(let i=1; i<=n; i++){    Time Complexity 
+        for(let j=1; j<=i; j++){  O(n^2) - Quadratic
+          // Some Code
+        }
+      }
+
+  EX4:
+
+    for(let i=1; i<=n; i++){      Time Complexity
+      for(let j=1; j<=i; j++){    O(n^3) - Cubic
+        for(let k=1; k<= j; k++){
+          // Some Code
+        }
+      }
+    }
+
+  EX5:
+
+    If input size reduces by half every iteration
+      - Time Complexity = O(longn) - Logarithmic
+
+### Space Complexity:
+
+    O(1) - Constant
+    O(n) - Linear
+    O(logn) - Logarithmic
