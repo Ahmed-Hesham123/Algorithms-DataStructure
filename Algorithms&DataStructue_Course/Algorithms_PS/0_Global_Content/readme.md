@@ -137,3 +137,89 @@
     O(1) - Constant
     O(n) - Linear
     O(logn) - Logarithmic
+
+### Few Points to note:
+
+1. Multiple algorithms exist for the same problem and there is no one right solution.
+   Different algorithms work well under different constraints.
+2. The same algorithms with the same programming language can be implemented in different ways.
+3. When writing programs at work, don't lose sight of the big picture. Rather than writing clever code,
+   write code that is simple to read and maintain.
+
+### Objects - Big-(o):
+
+*An object is a collection of key value pairs.*
+
+  EX:
+    
+    const person = {
+      firstName: 'Ahmed',
+      lastName: 'Hesham'
+    }
+
+- Insert - O(1)
+- Remove - O(1)
+- Access - O(1)
+- Search - O(n)
+- Object.keys() - O(n)
+- Object.values() - O(n)
+- Object.entries() - O(n)
+
+### Array - Big-O:
+
+*An array is an order collection of values.*
+
+  EX:
+
+    const odd = [1, 3, 5, 7, 9];
+
+- Insert / remove at end - O(1)
+- Insert / remove at beginning - O(n)
+- Access - O(1)
+- Search - O(n)
+- Push / Pop - O(1)
+- Shift / unShift / Concat / Slice / Splice - O(n)
+- forEach / map / filter / reduce - O(n)
+
+### Math Algorithms:
+
+- Fibonacci Sequence.
+- Factorial Of A Number.
+- Prime Number.
+- Power Of Two.
+- Recursion.
+- Fibonacci Sequence With Recursion.
+- Factorial Of A Number With Recursion.
+
+### Recursion:
+
+*Recursion is a problem solving technique where the solution depends on the solutions to smaller in stances of the same problem.*
+*Recursion is when a function calls itself.*
+
+#### Why?
+
+- A great technique to simplify your solution.
+- If you find yourself breaking down your problem into smaller versions of the same problems, recursion is very useful.
+
+Analogy:
+
+                                                    ----------
+                                                    - Princpal -
+                                                    ----------
+                                                         ^ 
+                                    ------------                   ------------
+                                    - Professor B -<------------->- Professor B -
+                                    ------------ 100           100 ------------
+                                ^                                               ^
+              ------------           ------------              ------------           ------------
+              - Teacher A -<------->- Teacher B -              - Teacher C -<------->- Teacher D -
+              ------------ 50     50 ------------              ------------ 50     50 ------------
+
+### Few points about recursion:
+
+1. Every Recursion solution needs to have a base case - a condition to terminate the recursion.
+2. Recursion might simplify solving a problem but it does not always translate to faster solution.
+   A recursion solution maybe far worse compared to an iterative solution.
+3. Recursion is a topic that is not the most straight forward to understand.
+   Don't give up if you struggle with the concept.
+
