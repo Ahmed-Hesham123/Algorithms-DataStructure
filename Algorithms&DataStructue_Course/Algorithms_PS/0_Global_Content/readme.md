@@ -223,3 +223,8 @@ Analogy:
 3. Recursion is a topic that is not the most straight forward to understand.
    Don't give up if you struggle with the concept.
 
+### Sorting Algorithms:
+- Bubble Sort.
+- Insertion Sort.
+- Quick Sort.
+- Merge Sort.
