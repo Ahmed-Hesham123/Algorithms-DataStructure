@@ -43,8 +43,6 @@ Given a roman numeral, convert it to an integer.
     Output: 1994
     Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
-### Big-O:
-
-$$O(n)$$ - $$Linear$$
+$$Big-O = O(n) - Linear$$
 
 [!Problem Link](https://leetcode.com/problems/roman-to-integer/)
