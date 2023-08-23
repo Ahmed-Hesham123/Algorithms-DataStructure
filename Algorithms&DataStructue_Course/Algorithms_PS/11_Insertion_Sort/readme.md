@@ -7,7 +7,7 @@
 ### Examples
 
     - const arr = [-6, 20, 8, -2, 4];
-    - bubbleSort(arr) => Should return [-6, -2, 4, 8, 20]
+    - insertionSort(arr) => Should return [-6, -2, 4, 8, 20]
 
 ### Insertion Sort Idea
 
