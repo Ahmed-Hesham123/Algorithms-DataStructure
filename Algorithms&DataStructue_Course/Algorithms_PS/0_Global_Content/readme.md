@@ -228,3 +228,31 @@ Analogy:
 - Insertion Sort.
 - Quick Sort.
 - Merge Sort.
+
+## Recap:
+
+- Math
+- Search
+- Sorting
+
+## Algorithm Design Techniques:
+
+- _Bruce Force_ - Simple and exhaustive technique that evaluates every possible outcome to find the best solution.
+                  -- EX: Linear Search.
+
+- _Greedy_ - Choose the best option at the current time, without any consideration for the future.
+             -- EX: Dijikstra's Algorithm, Prim's Algorithm and Kruskal's.
+
+- _Divide And Conquer_ - Divide the problem into smaller sub-problems. Each sub-problem is then solved and
+                         the partial solutions are recomined to determine the overll solution.
+                         -- EX: Binary Search, Quick Sort, Merge Sort and Tower of Hanoi.
+
+- _Dynamic Programming_ - Divide the problem into smaller sub-problems. Break it down into smaller but overlapping sub problems.
+                          Store the result and reuse it for the same sub-problems. This is called memorization
+                          and is a optimization technique that improves the time complexity of your algorithm.
+                          -- EX: Fibonacci Numbers and Climbing Staircase.
+
+- _Backtracking_ - Generate all possible solutions. Check if the solution satisfies all given constrains
+                   and only then you proceed with generating subsequent solutions.
+                   If the constraints are not satisfied, backtrack and go on a different path to find the solution.
+                   -- EX: N-Queens Problem.
