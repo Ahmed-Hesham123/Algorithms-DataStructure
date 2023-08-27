@@ -256,3 +256,12 @@ Analogy:
                    and only then you proceed with generating subsequent solutions.
                    If the constraints are not satisfied, backtrack and go on a different path to find the solution.
                    -- EX: N-Queens Problem.
+
+## Next Steps:
+
+_Solve more Problems:_
+
+- Finding the GCD using Euclidian algoritm.
+- Finding Permutations and combinations of a list of numbers.
+- Finding the longest common substring in a given string.
+- Knapsack problem.
