@@ -21,28 +21,28 @@
   both in terms of time and memory.
 - Learning about data strucures also help you gain a more profound understanding
   of things you are already aware of.
-  -- DOM - Tree data structure.
-  -- Browser back and forward - Stack data structure.
-  -- OS job sceduling - Queue data structure.
+    - DOM - Tree data structure.
+    - Browser back and forward - Stack data structure.
+    - OS job sceduling - Queue data structure.
 
 ### Course Overview:
 
 - Built in data structures:
 
--- Arrays.
--- Objects.
--- Sets.
--- Maps.
+  - Arrays.
+  - Objects.
+  - Sets.
+  - Maps.
 
 - Custom data structures:
 
--- Stacks.
--- Queues.
--- Circular queues.
--- Linked lists.
--- Hash tables.
--- Trees.
--- Graphs.
+  - Stacks.
+  - Queues.
+  - Circular queues.
+  - Linked lists.
+  - Hash tables.
+  - Trees.
+  - Graphs.
 
 ### Prerequisites:
 
