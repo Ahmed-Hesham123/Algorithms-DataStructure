@@ -18,9 +18,61 @@ class LinkedList {
   getSize() {
     return this.size;
   }
+  
+  // O(1)
+  prepend(value) {
+    const node = new Node(value);
+    if (this.isEmpty()) {
+      this.head = node;
+    } else {
+      node.next = this.head;
+      this.head = node;
+    }
+    this.size++;
+  }
+
+  // O(n)
+  append(value) {
+    const node = new Node(value);
+    if (this.isEmpty()) {
+      this.head = node;
+    } else {
+      let prev = this.head;
+      while (prev.next) {
+        prev = prev.next;
+      }
+      prev.next = node;
+    }
+    this.size++;
+  }
+
+  print() {
+    if (this.isEmpty()) {
+      console.log("List is empty");
+    } else {
+      let curr = this.head;
+      let listValues = "";
+      while (curr) {
+        listValues += `${curr.value} `;
+        curr = curr.next;
+      }
+      console.log(listValues);
+    }
+  }
 }
 
 const list = new LinkedList();
 
 console.log("List is empty?" + list.isEmpty());
-console.log("List size" + list.size());
+console.log("List size" + list.getSize());
+
+list.prepend(10);
+list.prepend(20);
+list.prepend(30);
+
+console.log("List is empty?" + list.isEmpty());
+
+list.print();
+
+list.append(20);
+list.append(30);
