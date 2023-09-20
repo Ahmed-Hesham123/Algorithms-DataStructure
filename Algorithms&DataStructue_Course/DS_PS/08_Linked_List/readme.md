@@ -14,10 +14,3 @@ _A Linked List is a linear data structure that includes a series of connected no
 
 - All applications of both stacks and queues are applications of linked lists.
 - Image viwer.
-
-### EX:
-
-  <code>
-  </code>
-
-$$Big-O = O() - $$
