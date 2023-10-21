@@ -63,8 +63,8 @@ class LinkedList {
 
       node.next = prev.next;
       prev.next = node;
-      this.size++;
     }
+    this.size++;
   }
 
   removeFrom(index) {
