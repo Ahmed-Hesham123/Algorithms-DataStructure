@@ -1,6 +1,6 @@
 # Stack Linked List
 
-_The stack data structure is a sequential collection of elements that follows the principle of first in last out (FILO) or (LIFO)._
+_The stack data structure is a sequential collection of elements that follows the principle of last in first out (LIFO)._
 
 - The first element inserted into the stack is the last element to be removed.
 - A stack of plates. The last plate placed on top of the stack is also the first plate removed from the stack.
